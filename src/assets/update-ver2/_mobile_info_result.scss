@@ -1,0 +1,36 @@
+@media (max-width: 675px) {
+  .rp-search-result-item {
+    .search-result__item-container {
+      .poster--avatar {
+        img {
+          
+        }
+      }
+    }
+    .w-31px{
+        width: 31px;
+    }
+    .sr-item__details {
+        // padding-left: 0 !important;
+      .item-details__post {
+        .search-result__item {
+          .item-price__top {
+            p {
+            }
+            h3 {
+            }
+            .fix-right {
+              .border-icon {
+                img {
+                }
+              }
+            }
+          }
+        }
+        .item__map {
+          display: none;
+        }
+      }
+    }
+  }
+}

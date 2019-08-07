@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# sass auto-generate
+/bin
+/scss
+/src/assets/stylesheets/components/*.scss
+/src/assets/stylesheets/pages/*.scss
+/src/assets/stylesheets/partials/*.scss
+prepros-6.config
+# sass cache
+.sass-cache
+# pugjs compile
+*.pug
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
